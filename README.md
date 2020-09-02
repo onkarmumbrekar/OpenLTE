@@ -9,6 +9,7 @@
 - Use broadband Antenna for Attacker eNodeB because it supports multiple frequencies 
 
 ## Install gnuradio with UHD (USRP)
+this are the required packges for using USRP b210
 `sudo apt-get install libuhd-dev libuhd003 uhd-host`
 `sudo apt-get install gnuradio`
 
