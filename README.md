@@ -25,6 +25,18 @@ this are the required packges for using USRP b210
 Follow this link to solve polarssl problem
 - [polarssl](https://blog.csdn.net/flyearth/article/details/77234177) 
 
+Download packages from below links:
+
+https://launchpad.net/ubuntu/vivid/amd64/libpolarssl7/1.3.9-2.1
+
+https://launchpad.net/ubuntu/xenial/amd64/libpolarssl-dev/1.3.9-2.1
+
+### Install polarssl
+
+`sudo dpkg -i libpolarssl7_***.deb`
+
+`sudo dpkg -i libpolarssl-dev_***.deb`
+
 **Build and install:**
 
 ```
