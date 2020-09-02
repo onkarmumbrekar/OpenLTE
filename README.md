@@ -10,9 +10,7 @@
 
 ## Install gnuradio with UHD (USRP)
 this are the required packges for using USRP b210
-
 `sudo apt-get install libuhd-dev libuhd003 uhd-host`
-
 `sudo apt-get install gnuradio`
 
 
@@ -22,8 +20,7 @@ this are the required packges for using USRP b210
 
 `sudo apt-get install libmbedtls-dev`
 
-`sudo apt-get install -y gr-osmosdr`
-
+- `sudo apt-get install cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev`
 
 **Build and install:**
 
