@@ -21,6 +21,7 @@ this are the required packges for using USRP b210
 **Dependencies:**
 
 `sudo apt-get install libmbedtls-dev`
+
 `sudo apt-get install -y gr-osmosdr`
 
 
