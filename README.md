@@ -1,10 +1,14 @@
+## Each brach represet new attack.
+`git checkout [branch_name]`
+
+
 ## Prerequisites
 
 - USB 3.0 interface
 - Modern multicore CPU (Intel Core i5, Core i7 or equivalent with SSE4.1 SSE4.2 and AVX support)
 - Use broadband Antenna for Attacker eNodeB because it supports multiple frequencies 
 
-## Install gnuradio with UHD
+## Install gnuradio with UHD (USRP)
 `sudo apt-get install libuhd-dev libuhd003 uhd-host`
 `sudo apt-get install gnuradio`
 
