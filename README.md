@@ -18,7 +18,7 @@ this are the required packges for using USRP b210
 
 **Dependencies:**
 
-`sudo apt-get install libpolarssl-dev`
+`sudo apt-get install libmbedtls-dev`
 
 **Build and install:**
 
