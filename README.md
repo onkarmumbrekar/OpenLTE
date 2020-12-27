@@ -1,12 +1,15 @@
 ## Each brach represet new attack.
 `git checkout [branch_name]`
 
+- whenerver chnaging branch remove build folder.
+
 
 ## Prerequisites
 
 - USB 3.0 interface
 - Modern multicore CPU (Intel Core i5, Core i7 or equivalent with SSE4.1 SSE4.2 and AVX support)
 - Use broadband Antenna for Attacker eNodeB because it supports multiple frequencies 
+- Need to use low latency kernel
 
 ## Install gnuradio with UHD (USRP)
 this are the required packges for using USRP b210
@@ -55,13 +58,22 @@ make
 
 Do not close this windows during operation!
 
-`LTE_fdd_enodeb`
+- Go to OpenLTE foler
+- GO to build folder
+- go to LTE_fdd_enodeb folder
+
+`sudo LTE_fdd_enodeb`
 
 **Second terminal:**
 
 This is the control interface of the eNodeB.
 
 `telnet 127.0.0.1 30000`
+
+- Download scripts from script folder [Note : only master branch contain this folder]
+- give execution permission
+
+`chmod +x [script]` 
 
 **Third terminal (Optional):**
 
