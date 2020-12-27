@@ -1,4 +1,4 @@
-## Each brach represet new attack.
+## Each brach represent new attack.
 `git checkout [branch_name]`
 
 - whenerver chnaging branch remove build folder.
